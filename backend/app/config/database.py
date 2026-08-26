@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
 # URL de conexão com o PostgreSQL
-DATABASE_URL = "postgresql+psycopg://postgres:postgres@localhost:5432/tempoalerta"
+DATABASE_URL = "postgresql+psycopg://postgres:postgres@localhost:5432/tempo_alerta"
 
 # Cria a conexão com o banco
 engine = create_engine(

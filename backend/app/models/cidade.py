@@ -29,13 +29,11 @@ class Cidade(Base):
         nullable=True
     )
 
-    # Usuários que escolheram essa cidade
     usuarios = relationship(
         "Usuario",
         back_populates="cidade"
     )
 
-    # Alertas relacionados à cidade
     alertas = relationship(
         "Alerta",
         back_populates="cidade"
