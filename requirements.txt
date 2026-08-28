@@ -1,6 +1,10 @@
 fastapi
-uvicorn
+uvicorn[standard]
 sqlalchemy
+psycopg[binary]
+alembic
+pydantic
+pydantic-settings
 httpx
 apscheduler
 psycopg2-binary
